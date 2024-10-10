@@ -20,3 +20,45 @@ body{
 height: 50px;
 margin-right: 25px;
 }
+
+/* trying this thingy out*/
+container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001e6c;
+  }
+  
+  .text span {
+    font-size: 8vw;
+    font-family: "Creepster", system-ui;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    animation: zoomup 5s ease infinite;
+    animation-delay: calc(150ms * var(--i));
+  }
+  
+  .dot {
+    display: block;
+  }
+  
+  @keyframes zoomup {
+    0%,
+    100% {
+      color: white;
+      filter: blur(0.2px);
+      text-shadow: 0 0 10px rgb(255, 119, 0), 0 0 20px rgb(255, 119, 0), 0 0 30px #ffb703,
+        0 0 40px rgb(255, 119, 0), 0 0 50px rgb(255, 119, 0), 0 0 60px rgb(255, 119, 0);
+    }
+  
+    50% {
+      filter: blur(0);
+      color: #fff;
+      text-shadow: none;
+    }
+  }
