@@ -31,7 +31,7 @@ container {
   }
   
   .text span {
-    font-size: 95px;
+    font-size: 6vw;
     font-family: "Creepster", system-ui;
     padding: 0 10px;
     text-transform: uppercase;
@@ -39,7 +39,7 @@ container {
     color: #fff;
     animation: zoomup 5s ease infinite;
     animation-delay: calc(150ms * var(--i));
-    
+  vertical-align: center;
   }
   
   .dot {
@@ -72,4 +72,14 @@ container {
     font-family: "Creepster", system-ui;
     color: black;
     font-size: 65px;
+    }
+    .truckk{
+      display: block; 
+      height: 700px;
+      width: 900px;
+      height: auto;
+      width: auto;
+    }
+    .hello{
+      display: none;
     }
