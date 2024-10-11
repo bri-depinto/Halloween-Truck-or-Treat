@@ -63,10 +63,13 @@ container {
   }
   .wordscontainer{
     background-color: rgb(255, 119, 0);
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 100px;
+    padding: 3%;
+    margin-top: 3%;
+    border-radius: 75%;
+    border: blueviolet 5px double;
   }
   .showwords{
     font-family: "Creepster", system-ui;
-  }
+    color: black;
+    font-size: 65px;
+    }
