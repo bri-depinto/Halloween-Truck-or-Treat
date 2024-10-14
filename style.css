@@ -92,6 +92,17 @@ container {
       height: auto;
       width: auto;
     }
-    .hello{
-      display: none;
+    .paw{
+      position: absolute;
+      top: 50%;
+     left: 50%;
+    transform: translate(-50%, -50%);
+    color: blueviolet;
+    font-family: "Creepster", system-ui;
+
+    }
+    .try{
+      height: 500px;
+      border: double 5px rgb(255, 119, 0);
+     align-items: center;
     }
