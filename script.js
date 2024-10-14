@@ -1,10 +1,10 @@
 $(document).ready(function () {
-    $('.try').on('mouseenter',() =>{
-        $('.paw').fadeIn();
-        $('.try').css('opacity', '40%',);
+    $('.pawpic').on('mouseenter',() =>{
+        $('.pawword').fadeIn();
+        $('.pawpic').css('opacity', '75%',);
     });
-    $('.try').on('mouseleave',() =>{
-        $('.paw').fadeOut();
-        $('.try').css('opacity', '100%');
+    $('.pawpic').on('mouseleave',() =>{
+        $('.pawword').fadeOut();
+        $('.pawpic').css('opacity', '100%');
     });
 });
