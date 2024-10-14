@@ -30,6 +30,18 @@ container {
     align-items: center;
   }
   
+  .row-heading {
+    margin-top: 50px;
+  }
+
+  .heading-text-div {
+    padding: 20px;
+  }
+
+.heading-img-div {
+  padding: 20px;
+}
+
   .text span {
     font-size: 6vw;
     font-family: "Creepster", system-ui;
@@ -39,7 +51,7 @@ container {
     color: #fff;
     animation: zoomup 5s ease infinite;
     animation-delay: calc(150ms * var(--i));
-  vertical-align: center;
+    vertical-align: center;
   }
   
   .dot {
