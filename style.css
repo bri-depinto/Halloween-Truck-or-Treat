@@ -79,6 +79,7 @@ container {
     margin-top: 3%;
     border-radius: 75%;
     border: blueviolet 5px double;
+    margin-bottom: 3%;
   }
   .showwords{
     font-family: "Creepster", system-ui;
@@ -201,3 +202,20 @@ container {
               border: dotted 5px rgb(255, 119, 0);
               padding: 10px;
               }
+              .homewordscontainer{
+                background-color: rgb(255, 119, 0);
+                margin-top: 3%;
+                border-radius: 5%;
+                border: blueviolet 5px double;
+                margin-bottom: 3%;
+                width: 400px;
+              }
+              .homewords{
+                font-family: "Creepster", system-ui;
+                color: black;
+                font-size: 45px;
+                }
+                .cat{
+                  background-color: blueviolet;
+                  height: 100px;
+                }
