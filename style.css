@@ -111,3 +111,22 @@ container {
     background-position: center center;
     border: double 5px rgb(255, 119, 0);
     }
+    .candypic{
+      height: 500px;
+      width: 400px;
+      background: url(imgs/candyland.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      border: double 5px blueviolet;
+    }
+    .candyword{
+      color: rgb(255, 119, 0);
+      font-family: "Creepster", system-ui;
+      display: none;
+      opacity: 100%;
+      background: blueviolet;
+      border: dotted 5px rgb(255, 119, 0);
+      padding: 10px;
+      }
+  
