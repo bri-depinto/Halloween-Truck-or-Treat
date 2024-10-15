@@ -64,7 +64,7 @@ $('.carnivalpic').on('mouseleave',() =>{
 
 
 $('.graveonepic').on('click',() =>{
-    $('.graveonepic').fadeOut();
+    $('.graveonepic').hide();
     $('.graveoneinfo').fadeIn();
     $('.graveonetitle').fadeIn();
     $('.gravedivone').css('background-color', 'blueviolet',);
@@ -72,20 +72,20 @@ $('.graveonepic').on('click',() =>{
 
 $('.graveoneinfo').on('click',() =>{
     $('.graveonepic').fadeIn();
-    $('.graveoneinfo').fadeOut();
-    $('.graveonetitle').fadeOut();
+    $('.graveoneinfo').hide();
+    $('.graveonetitle').hide();
     $('.gravedivone').css('background-color', 'black');
 });
 $('.graveonetitle').on('click',() =>{
     $('.graveonepic').fadeIn();
-    $('.graveoneinfo').fadeOut();
-    $('.graveonetitle').fadeOut();
+    $('.graveoneinfo').hide();
+    $('.graveonetitle').hide();
     $('.gravedivone').css('background-color', 'black');
 });
 
 
 $('.gravetwopic').on('click',() =>{
-    $('.gravetwopic').fadeOut();
+    $('.gravetwopic').hide();
     $('.gravetwoinfo').fadeIn();
     $('.gravetwotitle').fadeIn();
     $('.gravedivtwo').css('background-color', 'blueviolet');
@@ -93,14 +93,14 @@ $('.gravetwopic').on('click',() =>{
 
 $('.gravetwoinfo').on('click',() =>{
     $('.gravetwopic').fadeIn();
-    $('.gravetwoinfo').fadeOut();
-    $('.gravetwotitle').fadeOut();
+    $('.gravetwoinfo').hide();
+    $('.gravetwotitle').hide();
     $('.gravedivtwo').css('background-color', 'black');
 });
 $('.gravetwotitle').on('click',() =>{
     $('.gravetwopic').fadeIn();
-    $('.gravetwoinfo').fadeOut();
-    $('.gravetwotitle').fadeOut();
+    $('.gravetwoinfo').hide();
+    $('.gravetwotitle').hide();
     $('.gravedivtwo').css('background-color', 'black');
 });
 
@@ -108,7 +108,7 @@ $('.gravetwotitle').on('click',() =>{
 
 
 $('.gravethreepic').on('click',() =>{
-    $('.gravethreepic').fadeOut();
+    $('.gravethreepic').hide();
     $('.gravethreeinfo').fadeIn();
     $('.gravethreetitle').fadeIn();
     $('.gravedivthree').css('background-color', 'blueviolet');
@@ -117,14 +117,14 @@ $('.gravethreepic').on('click',() =>{
 
 $('.gravethreeinfo').on('click',() =>{
     $('.gravethreepic').fadeIn();
-    $('.gravethreeinfo').fadeOut();
-    $('.gravethreetitle').fadeOut();
+    $('.gravethreeinfo').hide();
+    $('.gravethreetitle').hide();
     $('.gravedivthree').css('background-color', 'black');
 });
 $('.gravethreetitle').on('click',() =>{
     $('.gravethreepic').fadeIn();
-    $('.gravethreeinfo').fadeOut();
-    $('.gravethreetitle').fadeOut();
+    $('.gravethreeinfo').hide();
+    $('.gravethreetitle').hide();
     $('.gravedivthree').css('background-color', 'black');
 });
 

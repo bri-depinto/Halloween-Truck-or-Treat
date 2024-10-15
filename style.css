@@ -1,24 +1,27 @@
-.navbar{
-    background-color:blueviolet;
-}
-.nav-link{
-    margin-right: 10px;
-    font-family: "Creepster", system-ui;
-    font-size: 30px; 
-    transition: 0.5s;
-}
-.nav-link:hover{
-color: rgb(255, 119, 0);
-letter-spacing: 0.75px;
-transition: 0.5s;
-}
-body{
-    background-color:black;
+.navbar {
+    background-color: blueviolet;
 }
 
-.textt{
-height: 50px;
-margin-right: 25px;
+.nav-link {
+    margin-right: 10px;
+    font-family: "Creepster", system-ui;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: rgb(255, 119, 0);
+    letter-spacing: 0.75px;
+    transition: 0.5s;
+}
+
+body {
+    background-color: black;
+}
+
+.textt {
+    height: 50px;
+    margin-right: 25px;
 }
 
 /* trying this thingy out*/
@@ -28,22 +31,22 @@ container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .row-heading {
-    margin-top: 50px;
-  }
-
-  .heading-text-div {
-    padding: 20px;
-  }
-
-.heading-img-div {
-  padding: 20px;
 }
 
-  .text span {
-    font-size: 5.9vw;
+.row-heading {
+    margin-top: 50px;
+}
+
+.heading-text-div {
+    padding: 20px;
+}
+
+.heading-img-div {
+    padding: 20px;
+}
+
+.text span {
+    font-size: clamp(35px,5vw,80px);
     font-family: "Creepster", system-ui;
     padding: 0 10px;
     text-transform: uppercase;
@@ -52,48 +55,53 @@ container {
     animation: zoomup 5s ease infinite;
     animation-delay: calc(150ms * var(--i));
     vertical-align: center;
-  }
-  
-  .dot {
+}
+
+.dot {
     display: block;
-  }
-  
-  @keyframes zoomup {
+}
+
+@keyframes zoomup {
+
     0%,
     100% {
-      color: white;
-      filter: blur(0.2px);
-      text-shadow: 0 0 10px rgb(255, 119, 0), 0 0 20px rgb(255, 119, 0), 0 0 30px #ffb703,
-        0 0 40px rgb(255, 119, 0), 0 0 50px rgb(255, 119, 0), 0 0 60px rgb(255, 119, 0);
+        color: white;
+        filter: blur(0.2px);
+        text-shadow: 0 0 10px rgb(255, 119, 0), 0 0 20px rgb(255, 119, 0), 0 0 30px #ffb703,
+            0 0 40px rgb(255, 119, 0), 0 0 50px rgb(255, 119, 0), 0 0 60px rgb(255, 119, 0);
     }
-  
+
     50% {
-      filter: blur(0);
-      color: #fff;
-      text-shadow: none;
+        filter: blur(0);
+        color: #fff;
+        text-shadow: none;
     }
-  }
-  .wordscontainer{
+}
+
+.wordscontainer {
     background-color: rgb(255, 119, 0);
     padding: 3%;
     margin-top: 3%;
     border-radius: 75%;
     border: blueviolet 5px double;
     margin-bottom: 3%;
-  }
-  .showwords{
+}
+
+.showwords {
     font-family: "Creepster", system-ui;
     color: black;
     font-size: 65px;
-    }
-    .truckk{
-      display: block; 
-      height: 700px;
-      width: 900px;
-      height: auto;
-      width: auto;
-    }
-    .pawword{
+}
+
+.truckk {
+    display: block;
+    height: 700px;
+    width: 900px;
+    height: auto;
+    width: auto;
+}
+
+.pawword {
     color: blueviolet;
     font-family: "Creepster", system-ui;
     display: none;
@@ -101,170 +109,206 @@ container {
     background: rgb(255, 119, 0);
     border: dotted 5px blueviolet;
     padding: 10px;
-    }
+}
 
-    .pawpic{
-      height: 500px;
+.pawpic {
+    height: 500px;
     width: 400px;
     background: url(imgs/pawpatrol.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     border: double 5px rgb(255, 119, 0);
-    }
-    .candypic{
-      height: 500px;
-      width: 400px;
-      background: url(imgs/candyland.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      border: double 5px blueviolet;
-    }
-    .candyword{
-      color: rgb(255, 119, 0);
-      font-family: "Creepster", system-ui;
-      display: none;
-      opacity: 100%;
-      background: blueviolet;
-      border: dotted 5px rgb(255, 119, 0);
-      padding: 10px;
-      }
-      .mariopic{
-        height: 500px;
-        width: 400px;
-        background: url(imgs/mario.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        border: double 5px rgb(255, 119, 0);
-      }
-      .marioword{
-        color: blueviolet;
-        font-family: "Creepster", system-ui;
-        display: none;
-        opacity: 100%;
-        background: rgb(255, 119, 0);
-        border: dotted 5px blueviolet;
-        padding: 10px;
-        }
-        .alicepic{
-          height: 500px;
-          width: 400px;
-          background: url(imgs/alice.jpg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center center;
-          border: double 5px blueviolet;
-        }
-        .aliceword{
-          color: rgb(255, 119, 0);
-          font-family: "Creepster", system-ui;
-          display: none;
-          opacity: 100%;
-          background: blueviolet;
-          border: dotted 5px rgb(255, 119, 0);
-          padding: 10px;
-          }
-          .hawaiipic{
-            height: 500px;
-            width: 400px;
-            background: url(imgs/hawaii.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            border: double 5px rgb(255, 119, 0);
-          }
-          .hawaiiword{
-            color: blueviolet;
-            font-family: "Creepster", system-ui;
-            display: none;
-            opacity: 100%;
-            background: rgb(255, 119, 0);
-            border: dotted 5px blueviolet;
-            padding: 10px;
-            }
-            .carnivalpic{
-              height: 500px;
-              width: 400px;
-              background: url(imgs/carnival.jpg);
-              background-repeat: no-repeat;
-              background-size: cover;
-              background-position: center center;
-              border: double 5px blueviolet;
-            }
-            .carnivalword{
-              color: rgb(255, 119, 0);
-              font-family: "Creepster", system-ui;
-              display: none;
-              opacity: 100%;
-              background: blueviolet;
-              border: dotted 5px rgb(255, 119, 0);
-              padding: 10px;
-              }
-              .homewordscontainer{
-                background-color: rgb(255, 119, 0);
-                margin-top: 3%;
-                border-radius: 5%;
-                border: blueviolet 5px double;
-                margin-bottom: 3%;
-                width: 400px;
-              }
-              .homewords{
-                font-family: "Creepster", system-ui;
-                color: black;
-                font-size: 45px;
-                }
-                .gravedivone{
-                  background-color: rgb(0, 0, 0);
-                  max-height: 100%;
-          border-radius: 10px;
-        
-                }
-                .gravedivtwo{
-                  background-color: rgb(0, 0, 0);
-                  max-height: 100%;
-                  border-radius: 10px;
-                }
-                .gravedivthree{
-                  background-color: rgb(0, 0, 0);
-                  max-height: 100%;
-                  border-radius: 10px;
-                }
-                .graveonetitle{
-                  display: none;
-                  font-family: "Creepster", system-ui;
-                  color: black;
-                  text-decoration: underline;
-                }
-                .graveoneinfo{
-                  font-family: "Tenor Sans", sans-serif;
-                  display: none;
-                  color: black;
-                }
-                .gravetwotitle{
-                  display: none;
-                  font-family: "Creepster", system-ui;
-                  color: black;
-                  text-decoration: underline;
-                }
-                .gravetwoinfo{
-                  font-family: "Tenor Sans", sans-serif;
-                  display: none;
-                  color: black;
-                }
-                .gravethreetitle{
-                  display: none;
-                  font-family: "Creepster", system-ui;
-                  color: black;
-                  text-decoration: underline;
-                }
-                .gravethreeinfo{
-                  font-family: "Tenor Sans", sans-serif;
-                  display: none;
-                  color: black;
-                }
-                .active{
-                  color: rgb(255, 119, 0);
-                  text-decoration: none;
-                }
+}
+
+.candypic {
+    height: 500px;
+    width: 400px;
+    background: url(imgs/candyland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: double 5px blueviolet;
+}
+
+.candyword {
+    color: rgb(255, 119, 0);
+    font-family: "Creepster", system-ui;
+    display: none;
+    opacity: 100%;
+    background: blueviolet;
+    border: dotted 5px rgb(255, 119, 0);
+    padding: 10px;
+}
+
+.mariopic {
+    height: 500px;
+    width: 400px;
+    background: url(imgs/mario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: double 5px rgb(255, 119, 0);
+}
+
+.marioword {
+    color: blueviolet;
+    font-family: "Creepster", system-ui;
+    display: none;
+    opacity: 100%;
+    background: rgb(255, 119, 0);
+    border: dotted 5px blueviolet;
+    padding: 10px;
+}
+
+.alicepic {
+    height: 500px;
+    width: 400px;
+    background: url(imgs/alice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: double 5px blueviolet;
+}
+
+.aliceword {
+    color: rgb(255, 119, 0);
+    font-family: "Creepster", system-ui;
+    display: none;
+    opacity: 100%;
+    background: blueviolet;
+    border: dotted 5px rgb(255, 119, 0);
+    padding: 10px;
+}
+
+.hawaiipic {
+    height: 500px;
+    width: 400px;
+    background: url(imgs/hawaii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: double 5px rgb(255, 119, 0);
+}
+
+.hawaiiword {
+    color: blueviolet;
+    font-family: "Creepster", system-ui;
+    display: none;
+    opacity: 100%;
+    background: rgb(255, 119, 0);
+    border: dotted 5px blueviolet;
+    padding: 10px;
+}
+
+.carnivalpic {
+    height: 500px;
+    width: 400px;
+    background: url(imgs/carnival.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: double 5px blueviolet;
+}
+
+.carnivalword {
+    color: rgb(255, 119, 0);
+    font-family: "Creepster", system-ui;
+    display: none;
+    opacity: 100%;
+    background: blueviolet;
+    border: dotted 5px rgb(255, 119, 0);
+    padding: 10px;
+}
+
+.homewordscontainer {
+    background-color: rgb(255, 119, 0);
+    border-radius: 5%;
+    border: blueviolet 5px double;
+    margin: 100px auto;
+    width: 400px;
+}
+
+.homewords {
+    font-family: "Creepster", system-ui;
+    color: black;
+    font-size: 45px;
+}
+
+.gravestone-row {
+}
+
+.gravedivone {
+    background-color: rgb(0, 0, 0);
+    max-height: 100%;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.gravedivtwo {
+    background-color: rgb(0, 0, 0);
+    max-height: 100%;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.gravedivthree {
+    background-color: rgb(0, 0, 0);
+    max-height: 100%;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.graveonetitle {
+    display: none;
+    font-family: "Creepster", system-ui;
+    color: black;
+    text-decoration: underline;
+}
+
+.graveoneinfo {
+    font-family: "Tenor Sans", sans-serif;
+    display: none;
+    color: black;
+}
+
+.gravetwotitle {
+    display: none;
+    font-family: "Creepster", system-ui;
+    color: black;
+    text-decoration: underline;
+}
+
+.gravetwoinfo {
+    font-family: "Tenor Sans", sans-serif;
+    display: none;
+    color: black;
+}
+
+.gravethreetitle {
+    display: none;
+    font-family: "Creepster", system-ui;
+    color: black;
+    text-decoration: underline;
+}
+
+.gravethreeinfo {
+    font-family: "Tenor Sans", sans-serif;
+    display: none;
+    color: black;
+}
+
+.activee {
+    color: rgb(255, 119, 0);
+    text-decoration: none;
+}
+
+li{
+    color: white;
+    padding-left: 1rem;
+    text-indent: -0.7rem;
+}
+
+li::before {
+    content: "🎃 ";
+}
