@@ -43,7 +43,7 @@ container {
 }
 
   .text span {
-    font-size: 6vw;
+    font-size: 5.9vw;
     font-family: "Creepster", system-ui;
     padding: 0 10px;
     text-transform: uppercase;
@@ -215,7 +215,56 @@ container {
                 color: black;
                 font-size: 45px;
                 }
-                .cat{
-                  background-color: blueviolet;
-                  height: 100px;
+                .gravedivone{
+                  background-color: rgb(0, 0, 0);
+                  max-height: 100%;
+          border-radius: 10px;
+        
+                }
+                .gravedivtwo{
+                  background-color: rgb(0, 0, 0);
+                  max-height: 100%;
+                  border-radius: 10px;
+                }
+                .gravedivthree{
+                  background-color: rgb(0, 0, 0);
+                  max-height: 100%;
+                  border-radius: 10px;
+                }
+                .graveonetitle{
+                  display: none;
+                  font-family: "Creepster", system-ui;
+                  color: black;
+                  text-decoration: underline;
+                }
+                .graveoneinfo{
+                  font-family: "Tenor Sans", sans-serif;
+                  display: none;
+                  color: black;
+                }
+                .gravetwotitle{
+                  display: none;
+                  font-family: "Creepster", system-ui;
+                  color: black;
+                  text-decoration: underline;
+                }
+                .gravetwoinfo{
+                  font-family: "Tenor Sans", sans-serif;
+                  display: none;
+                  color: black;
+                }
+                .gravethreetitle{
+                  display: none;
+                  font-family: "Creepster", system-ui;
+                  color: black;
+                  text-decoration: underline;
+                }
+                .gravethreeinfo{
+                  font-family: "Tenor Sans", sans-serif;
+                  display: none;
+                  color: black;
+                }
+                .active{
+                  color: rgb(255, 119, 0);
+                  text-decoration: none;
                 }

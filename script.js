@@ -63,4 +63,71 @@ $('.carnivalpic').on('mouseleave',() =>{
 // end of sixth pic
 
 
+$('.graveonepic').on('click',() =>{
+    $('.graveonepic').fadeOut();
+    $('.graveoneinfo').fadeIn();
+    $('.graveonetitle').fadeIn();
+    $('.gravedivone').css('background-color', 'blueviolet',);
+});
+
+$('.graveoneinfo').on('click',() =>{
+    $('.graveonepic').fadeIn();
+    $('.graveoneinfo').fadeOut();
+    $('.graveonetitle').fadeOut();
+    $('.gravedivone').css('background-color', 'black');
+});
+$('.graveonetitle').on('click',() =>{
+    $('.graveonepic').fadeIn();
+    $('.graveoneinfo').fadeOut();
+    $('.graveonetitle').fadeOut();
+    $('.gravedivone').css('background-color', 'black');
+});
+
+
+$('.gravetwopic').on('click',() =>{
+    $('.gravetwopic').fadeOut();
+    $('.gravetwoinfo').fadeIn();
+    $('.gravetwotitle').fadeIn();
+    $('.gravedivtwo').css('background-color', 'blueviolet');
+});
+
+$('.gravetwoinfo').on('click',() =>{
+    $('.gravetwopic').fadeIn();
+    $('.gravetwoinfo').fadeOut();
+    $('.gravetwotitle').fadeOut();
+    $('.gravedivtwo').css('background-color', 'black');
+});
+$('.gravetwotitle').on('click',() =>{
+    $('.gravetwopic').fadeIn();
+    $('.gravetwoinfo').fadeOut();
+    $('.gravetwotitle').fadeOut();
+    $('.gravedivtwo').css('background-color', 'black');
+});
+
+
+
+
+$('.gravethreepic').on('click',() =>{
+    $('.gravethreepic').fadeOut();
+    $('.gravethreeinfo').fadeIn();
+    $('.gravethreetitle').fadeIn();
+    $('.gravedivthree').css('background-color', 'blueviolet');
+
+});
+
+$('.gravethreeinfo').on('click',() =>{
+    $('.gravethreepic').fadeIn();
+    $('.gravethreeinfo').fadeOut();
+    $('.gravethreetitle').fadeOut();
+    $('.gravedivthree').css('background-color', 'black');
+});
+$('.gravethreetitle').on('click',() =>{
+    $('.gravethreepic').fadeIn();
+    $('.gravethreeinfo').fadeOut();
+    $('.gravethreetitle').fadeOut();
+    $('.gravedivthree').css('background-color', 'black');
+});
+
+
+
 });
