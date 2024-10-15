@@ -129,4 +129,75 @@ container {
       border: dotted 5px rgb(255, 119, 0);
       padding: 10px;
       }
-  
+      .mariopic{
+        height: 500px;
+        width: 400px;
+        background: url(imgs/mario.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border: double 5px rgb(255, 119, 0);
+      }
+      .marioword{
+        color: blueviolet;
+        font-family: "Creepster", system-ui;
+        display: none;
+        opacity: 100%;
+        background: rgb(255, 119, 0);
+        border: dotted 5px blueviolet;
+        padding: 10px;
+        }
+        .alicepic{
+          height: 500px;
+          width: 400px;
+          background: url(imgs/alice.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          border: double 5px blueviolet;
+        }
+        .aliceword{
+          color: rgb(255, 119, 0);
+          font-family: "Creepster", system-ui;
+          display: none;
+          opacity: 100%;
+          background: blueviolet;
+          border: dotted 5px rgb(255, 119, 0);
+          padding: 10px;
+          }
+          .hawaiipic{
+            height: 500px;
+            width: 400px;
+            background: url(imgs/hawaii.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border: double 5px rgb(255, 119, 0);
+          }
+          .hawaiiword{
+            color: blueviolet;
+            font-family: "Creepster", system-ui;
+            display: none;
+            opacity: 100%;
+            background: rgb(255, 119, 0);
+            border: dotted 5px blueviolet;
+            padding: 10px;
+            }
+            .carnivalpic{
+              height: 500px;
+              width: 400px;
+              background: url(imgs/carnival.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center center;
+              border: double 5px blueviolet;
+            }
+            .carnivalword{
+              color: rgb(255, 119, 0);
+              font-family: "Creepster", system-ui;
+              display: none;
+              opacity: 100%;
+              background: blueviolet;
+              border: dotted 5px rgb(255, 119, 0);
+              padding: 10px;
+              }
