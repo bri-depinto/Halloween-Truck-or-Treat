@@ -490,3 +490,10 @@ margin-top: 50px;
     font-family: "Tenor Sans", sans-serif;
     font-weight: 900;
   }
+.pleaseemail{
+    font-family: "Tenor Sans", sans-serif;
+    color: rgb(255, 119, 0);
+}
+hr{
+    color: white;
+}
