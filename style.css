@@ -15,12 +15,83 @@
     transition: 0.5s;
 }
 
+/*hamburger menu css*/
+
+.navbar-toggler {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    transition: .5s ease-in-out;
+  }
+  
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+  }
+  
+  .navbar-toggler span {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .toggler-icon {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    top: 10px;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+  
+  .middle-bar {
+    margin-top: 0px;
+  }
+  
+  .navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  
+  .navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+  }
+  
+  .navbar-toggler.collapsed .top-bar {
+    margin-top: -15px;
+    transform: rotate(0deg);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    margin-top: 15px;
+    transform: rotate(0deg);
+  }
+
 body {
     background-color: black;
 }
 
 .textt {
-    height: 50px;
+    height: 47px;
     margin-right: 25px;
 }
 
@@ -357,6 +428,39 @@ h2 {
     margin: 20px;
 }
 .tittext{
-    font-size: 55px;
+    font-size: 6vw;
+}
+.clickme1{
+   color: blueviolet;
+   font-size: clamp(13px, 1.3vw, 100px);
+   font-family: "Tenor Sans", sans-serif;
 
 }
+
+/* scrollbar */
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+    
+  /* Track */
+    
+  ::-webkit-scrollbar-track {
+    background: #eeebeb; 
+  }
+     
+  /* Handle */
+    
+  ::-webkit-scrollbar-thumb {
+    background:rgb(255, 119, 0);
+  }
+    
+  /* Handle on hover */
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(255, 119, 0); 
+  }
+    
+    
