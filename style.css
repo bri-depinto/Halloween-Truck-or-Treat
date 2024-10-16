@@ -312,6 +312,7 @@ container {
     max-height: 100%;
     border-radius: 10px;
     margin: 20px 10px;
+    cursor: pointer;
 }
 
 .gravedivtwo {
@@ -319,6 +320,7 @@ container {
     max-height: 100%;
     border-radius: 10px;
     margin: 20px 10px;
+    cursor: pointer;
 }
 
 .gravedivthree {
@@ -326,6 +328,7 @@ container {
     max-height: 100%;
     border-radius: 10px;
     margin: 20px 10px;
+    cursor: pointer;
 }
 
 .graveonetitle {
@@ -392,6 +395,7 @@ li::before {
     font-family: "Creepster", system-ui;
     border-radius: 5px;
     margin: 20px;
+    cursor: pointer;
 }
 
 h2 {
@@ -417,6 +421,7 @@ h2 {
     font-family: "Creepster", system-ui;
     border-radius: 5px;
     margin: 20px;
+    cursor: pointer;
 
 }
 
@@ -426,9 +431,10 @@ h2 {
     font-family: "Creepster", system-ui;
     border-radius: 5px;
     margin: 20px;
+    cursor: pointer;
 }
 .tittext{
-    font-size: 6vw;
+    font-size: clamp(60px, 5vw, 150px);
 }
 .clickme1{
    color: blueviolet;
@@ -463,4 +469,24 @@ h2 {
       background: rgb(255, 119, 0); 
   }
     
-    
+  footer{
+    background-color: rgb(65, 63, 61);
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+margin-top: 50px;
+  }
+  .plswork{
+    font-family: "Creepster", system-ui;
+  }
+  p{
+    font-family: "Creepster", system-ui;
+    font-size: 20px;
+    margin: 0;
+  }
+  a{
+    color: blueviolet;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 900;
+  }
