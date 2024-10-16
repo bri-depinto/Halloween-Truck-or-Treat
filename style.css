@@ -235,8 +235,6 @@ container {
     font-size: 45px;
 }
 
-.gravestone-row {
-}
 
 .gravedivone {
     background-color: rgb(0, 0, 0);
@@ -314,4 +312,16 @@ container {
 li::before {
     content: "🎃 ";
     margin-right: 1px;
+}
+.setupdiv{
+    background-color: blueviolet;
+    color: black;
+    font-family: "Creepster", system-ui;
+border-radius: 5px;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+.setuptext{
+    display: none;
 }

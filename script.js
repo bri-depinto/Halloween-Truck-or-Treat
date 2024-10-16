@@ -130,4 +130,8 @@ $('.gravethreetitle').on('click',() =>{
 
 
 
+$('.setupdiv').on('click',() =>{
+    $('setuptext').slideToggle();
+});
+
 });
