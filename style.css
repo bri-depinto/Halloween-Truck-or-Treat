@@ -303,12 +303,13 @@ container {
     text-decoration: none;
 }
 
-li{
-    color: white;
+
+
+  li {
+    color:#fff;
     padding-left: 1rem;
     text-indent: -0.7rem;
-}
-
+  }
 li::before {
     content: "🎃 ";
 }
