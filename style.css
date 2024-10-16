@@ -307,9 +307,11 @@ container {
 
   li {
     color:#fff;
-    padding-left: 1rem;
+    padding-left: 0rem;
     text-indent: -0.7rem;
+    list-style-type: none
   }
 li::before {
     content: "🎃 ";
+    margin-right: 1px;
 }
