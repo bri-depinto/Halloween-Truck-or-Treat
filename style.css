@@ -46,7 +46,7 @@ container {
 }
 
 .text span {
-    font-size: clamp(35px,5vw,80px);
+    font-size: clamp(35px, 5vw, 80px);
     font-family: "Creepster", system-ui;
     padding: 0 10px;
     text-transform: uppercase;
@@ -303,25 +303,60 @@ container {
 
 
 
-  li {
-    color:#fff;
+li {
+    color: #fff;
     padding-left: 0rem;
     text-indent: -0.7rem;
     list-style-type: none
-  }
+}
+
 li::before {
     content: "🎃 ";
     margin-right: 1px;
 }
-.setupdiv{
+
+.setupdiv {
     background-color: blueviolet;
     color: black;
     font-family: "Creepster", system-ui;
-border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px;
 }
-h2{
+
+h2 {
     color: rgb(255, 255, 255);
+    font-size: 55px;
 }
-.setuptext{
+
+.setuptext {
     display: none;
+}
+
+.eventtext {
+    display: none;
+}
+
+.cleantext {
+    display: none;
+}
+
+.cleandiv {
+    background-color: blueviolet;
+    color: black;
+    font-family: "Creepster", system-ui;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+.eventdiv {
+    background-color: blueviolet;
+    color: black;
+    font-family: "Creepster", system-ui;
+    border-radius: 5px;
+    margin: 20px;
+}
+.tittext{
+    font-size: 55px;
+
 }

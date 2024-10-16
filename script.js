@@ -131,7 +131,13 @@ $('.gravethreetitle').on('click',() =>{
 
 
 $('.setupdiv').on('click',() =>{
-    $('setuptext').slideToggle();
+    $('.setuptext').slideToggle();
+});
+$('.eventdiv').on('click',() =>{
+    $('.eventtext').slideToggle();
+});
+$('.cleandiv').on('click',() =>{
+    $('.cleantext').slideToggle();
 });
 
 });
